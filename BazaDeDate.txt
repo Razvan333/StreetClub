@@ -1,0 +1,84 @@
+
+Baza de date contine urmatoarele tabele:
+
+admin_data:
+	id		int(11);
+	full_name	varchar(300);
+	email		varchar(300);
+	password	varchar(300);
+
+users:
+	id		int(11);
+	full_name	varchar(300);
+	email		varchar(300);
+	password	varchar(300);
+
+legs:
+	id		int(11);
+	tip		varchar(300);
+	nume		varchar(300);
+	repetari	varchar(300);
+	pauza		varchar(300);
+	descriere	varchar(300);
+	link		varchar(300);
+
+hit:
+	id		int(11);
+	tip		varchar(300);
+	nume		varchar(300);
+	repetari	varchar(300);
+	pauza		varchar(300);
+	descriere	varchar(300);
+	link		varchar(300);
+
+chest:
+	id		int(11);
+	tip		varchar(300);
+	nume		varchar(300);
+	repetari	varchar(300);
+	pauza		varchar(300);
+	descriere	varchar(300);
+	link		varchar(300);
+
+
+back:
+	id		int(11);
+	tip		varchar(300);
+	nume		varchar(300);
+	repetari	varchar(300);
+	pauza		varchar(300);
+	descriere	varchar(300);
+	link		varchar(300);
+
+
+warmup:
+	id		int(11);
+	tip		varchar(300);
+	nume		varchar(300);
+	repetari	varchar(300);
+	pauza		varchar(300);
+	descriere	varchar(300);
+	link		varchar(300);
+
+
+personalized_training:
+	id		int(11);
+	email_user	varchar(300);
+	tip		varchar(300);
+	nume		varchar(300);
+	repetari	varchar(300);
+	pauza		varchar(300);
+	descriere	varchar(300);
+	link		varchar(300);
+
+training_request:
+	id		int(11);
+	email		varchar(300);
+	phnumber	varchar(300);
+	experience	varchar(300);
+	age		varchar(300);
+	tall		varchar(300);
+	time		varchar(300);
+	typeex		varchar(300);
+	goal		varchar(300);
+	data_cereri	timestamp;

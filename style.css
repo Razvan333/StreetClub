@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Kosugi+Maru&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@200&display=swap");
+/*global style*/
+* {
+  outline: none;
+  margin: 0;
+  padding: 0;
+}
+section > div {
+  border: 1px solid transparent;
+}
+.bg-secondary {
+  background-color: black !important;
+}
+.no-space > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+body {
+  font-family: "Open Sans", "Sans-serif";
+  margin: 0;
+  padding: 0;
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: #353535;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: "Open Sans Condensed", sans-serif;
+  margin: 0;
+  padding: 0;
+  font-weight: 500;
+  letter-spacing: 2px;
+}
+h1,
+h3,
+h4,
+h5 {
+  text-transform: uppercase;
+}
+h2 {
+  font-size: 8rem;
+}
+h3 {
+  font-size: 2.85rem;
+  letter-spacing: 7px;
+  color: rgb(255, 254, 254);
+  margin-bottom: 4rem;
+}
+h4 {
+  font-size: 1.7rem;
+  color: rgb(255, 254, 254);
+}
+h5 {
+  color: #fff;
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #b1aeae;
+  line-height: 1.5;
+  font-size: 1.1rem;
+}
+
+section {
+  padding: 3.5rem 0;
+  text-align: center;
+  background: black;
+}
+.aboutMeBackground {
+  background: white;
+}
+.container {
+  max-width: 1100px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.flex {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*end global*/
+/*navbar*/
+.bg-dark-opacity {
+  background: rgba(0, 0, 0, 0) !important;
+}
+/*end nav*/
+
+/*hero section*/
+.p-black {
+  color: black !important;
+}
+#hero {
+  position: relative;
+  padding: 0;
+}
+header nav {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+header nav ul li a {
+  color: white;
+  font-size: 0.85rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+header {
+  position: relative;
+  background-color: black;
+  top: 0;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+
+header video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: 100%;
+  width: auto;
+  height: auto;
+  z-index: 0;
+  -ms-transform: translateX(-50%) translateY(-50%);
+  -moz-transform: translateX(-50%) translateY(-50%);
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  opacity: 0.5;
+  z-index: -1;
+}
+
+@media (pointer: coarse) and (hover: none) {
+  header {
+    background: black no-repeat center center scroll;
+  }
+}
+
+/*end hero*/
+/*Services*/
+#services {
+  background: black !important;
+  margin-bottom: 0 !important;
+}
+#services p {
+  font-family: "Source Sans Pro", sans-serif;
+  color: #ffffff;
+  line-height: 1.5;
+  font-size: 1.15rem;
+}
+
+/*end Services*/
+/*Gallery*/
+#gallery {
+  background: black;
+}
+/*end Gallery*/
+/*footer*/
+
+/*end footer*/
+/*Login*/
+.bg-login {
+  background-image: url("img/img1.jpg");
+  background-size: cover;
+}
+.bg-column {
+  background-color: rgba(255, 255, 255, 0.8);
+}
+form h1 {
+  color: black;
+}
+
+/*end login*/
+/*chest*/
+.body-chest {
+  background-color: white !important;
+}
+head nav {
+  background: rgba(0, 0, 0, 0.6);
+}
+
+head nav ul li a {
+  color: white;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+
+head {
+  position: relative;
+  background-color: rgb(253, 253, 253);
+  top: 0;
+  height: 100vh;
+  min-height: 25rem;
+  width: 100%;
+  overflow: hidden;
+}
+.h3-pos {
+  font-size: 2.2rem;
+  margin-bottom: -35px;
+  background: black;
+  text-align: left;
+}
+.p-chest {
+  color: black !important ;
+}
+#nav-black {
+  background-color: black !important;
+}
+.h-workout {
+  font-size: 2.3rem !important;
+  color: black !important;
+}
+.spaceWord {
+  word-spacing: 5px !important;
+}
+.nav-font {
+  font-size: 0.85rem !important;
+}
+/*end chest*/
+
+/*start footer*/
+.bg-footer {
+  background-image: url("img/imgFooter.jpg");
+  background-size: cover;
+  display: block;
+  padding-bottom: 2rem;
+}
+
+/*end footer*/
+/*admin*/
+.bg-admin {
+  background-color: black;
+}
+/*end admin*/
+/*register password */
+
+.form .form-element {
+  position: relative;
+}
+.form .form-element input {
+  width: 100%;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #888;
+  background: #f5f5f5;
+  box-sizing: border-box;
+  outline: none;
+  text-indent: 0px;
+}
+.form .form-element .toggle-password {
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  top: 40px;
+  right: 2px;
+  border-radius: 50%;
+  text-align: center;
+  line-height: 35px;
+  font-size: 20px;
+  cursor: pointer;
+}
+.form .form-element .toggle-password.active i.fa-eye {
+  display: none;
+}
+.form .form-element .toggle-password.active i.fa-eye-slash {
+  display: inline;
+}
+.form .form-element .toggle-password i.fa-eye-slash {
+  display: none;
+}
+.form .form-element .password-policies {
+  position: relative;
+  top: 0px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  padding: 0px;
+  height: 0px;
+  background: #f5f5f5;
+  border-radius: 5px;
+  margin-top: 10px;
+  box-sizing: border-box;
+  opacity: 0;
+  overflow: hidden;
+  transition: height 300ms ease-in-out, opacity 300ms ease-in-out;
+}
+.form .form-element .password-policies.active {
+  opacity: 1;
+  padding: 10px;
+  height: 180px;
+}
+.form .form-element .password-policies > div {
+  margin: 15px 10px;
+  font-weight: 600;
+  color: rgb(206, 4, 4);
+  transition: all 300ms ease-in-out;
+}
+.form .form-element .password-policies > div.active {
+  color: rgb(10, 206, 69);
+}
+/*end register password*/
