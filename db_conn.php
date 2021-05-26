@@ -1,8 +1,10 @@
 <?php
 
 $sName = "localhost";
-$uName = "root";
-$password = "";
+//$uName = "root";
+//$password = "";
+$uName = "streetclub";
+$password = "streetclub321";
 $db_name = "streetclub";
 $charset = "utf8mb4";
 
