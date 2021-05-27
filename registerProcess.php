@@ -19,7 +19,7 @@ if (isset($_POST['full_name']) && isset($_POST['email']) && isset($_POST['passwo
         header("Location: register.php?error=Re-enter password is required");
     } else if ($password !== $re_password) {
         header("Location: register.php?error=Re-enter password and Password does not match");
-    } else if (!isset($_POST['check'])) {
+    } else if (empty($_POST['check'])) {
         header("Location: register.php?error=Accept Terms and Condition");
     } else {
         //hashing password

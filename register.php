@@ -57,8 +57,8 @@
                     <input type="password" name="re_password" class="form-control" id="InputRePassword" placeholder="Re-Password">
                 </div>
                 <div class="form-check checkbox-teal mb-2">
-                    <input type="checkbox" class="form-check-input" id="checkbox">
-                    <label class="form-check-label" for="tealExample"><a href="terms&condition/termsCondition.html">Terms & Conditions</a></label>
+                    <label class="form-check-label" for="tealExample"><input type="checkbox" class="form-check-input" name="check" id="checkbox">
+                        <a href="terms&condition/termsCondition.html">Terms & Conditions</a></label>
                 </div>
                 <button type="submit" class="btn btn-primary">Sign Up</button>
                 <a href="login.php" class="btn btn-dark" style="float:right;">Already have an account</a>
