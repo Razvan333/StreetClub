@@ -8,6 +8,7 @@ session_start();
 <head>
     <meta charset="UTF-8" ;>
     <meta name="viewport">
+    <link rel="shortcut icon" type="image/png" href="../img/logo.png" sizes="16x16">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.slim.min.js">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.0/font/bootstrap-icons.css">

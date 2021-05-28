@@ -3,10 +3,10 @@ session_start();
 include 'db_conn.php';
 
 if (isset($_POST['full_name']) && isset($_POST['email']) && isset($_POST['password']) && isset($_POST['re_password'])) {
-    $full_name = $_POST['full_name'];
-    $email = $_POST['email'];
-    $password = $_POST["password"];
-    $re_password = $_POST['re_password'];
+    $full_name =htmlspecialchars( $_POST['full_name']);
+    $email =htmlspecialchars( $_POST['email']);
+    $password = htmlspecialchars($_POST["password"]);
+    $re_password =htmlspecialchars( $_POST['re_password']);
 
 
     if (empty($full_name)) {

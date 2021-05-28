@@ -3,8 +3,8 @@ session_start();
 include 'db_conn.php';
 if (isset($_POST['email']) && isset($_POST['password'])) {
 
-    $email = $_POST['email'];
-    $password = $_POST["password"];
+    $email = htmlspecialchars($_POST['email']);
+    $password = htmlspecialchars($_POST["password"]);
 
     if (empty($email)) {
         header("Location: login.php?error=Email is required");

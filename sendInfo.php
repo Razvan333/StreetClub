@@ -7,13 +7,13 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) {
 
     if (isset($_POST['submit'])) {
         $email = htmlspecialchars($_POST['email']);
-        $phnumber = $_POST['phnumber'];
-        $experience = $_POST['experience'];
-        $age = $_POST['age'];
-        $tall = $_POST['tall'];
-        $time = $_POST['time'];
-        $typeEx = $_POST['typeEx'];
-        $goal = $_POST['goal'];
+        $phnumber = htmlspecialchars($_POST['phnumber']);
+        $experience = htmlspecialchars($_POST['experience']);
+        $age = htmlspecialchars($_POST['age']);
+        $tall = htmlspecialchars($_POST['tall']);
+        $time = htmlspecialchars($_POST['time']);
+        $typeEx = htmlspecialchars($_POST['typeEx']);
+        $goal = htmlspecialchars($_POST['goal']);
         if ($_SESSION['user_email'] != $email) {
             header("location: personalizedWk.php?error=E-mail should be the same with your login credential");
         } else {
