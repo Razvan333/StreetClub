@@ -8,7 +8,7 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) { ?>
     <html>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="style.css">
-    <title>Hit</title>
+    <title>Hiit</title>
     <section>
 
         <head>

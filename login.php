@@ -10,7 +10,7 @@ if (!isset($_SESSION['user_id']) && !isset($_SESSION['user_email'])) { ?>
     <body>
         <div class="img-fluid bg-login max-width: 100%;height: auto">
             <div class="d-flex justify-content-center align-items-center" style="min-height: 100vh;">
-                <form class="p-5 rounded bg-column shadow" action="loginProcess.php" method="post" style="width: 30rem;">
+                <form class="p-4 rounded bg-column shadow" action="loginProcess.php" method="post" style="width: 30rem;">
                     <h1 class="text-center pb-5 display-4"><img src="img/logo.png" style="width:35%;" /><br />LOGIN</h1>
                     <?php if (isset($_GET['error'])) { ?>
                         <div class="alert alert-danger" role="alert">
@@ -43,6 +43,7 @@ if (!isset($_SESSION['user_id']) && !isset($_SESSION['user_email'])) { ?>
                     <a href="register.php" class="btn btn-dark" style="float:right;">Create an account</a><br /><br />
 
                 </form>
+
             </div>
         </div>
         <script>

@@ -59,7 +59,7 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) { ?>
                     <thead>
                         <tr>
                             <th scope="col">
-                                <p style="color:black;">Please insert carefully your personal information for a good plan trainning.<br /> After you sent the request you will be contacted very soon by the admin.</p>
+                                <p style="color:black;">Please insert carefully your personal information for a good plan trainning.<br /> After you sent the request you will be contacted very soon by the admin.<br />These personalized workout are paid, and the price will be decided after the consultation with the Personal Trainer.</p>
                             </th>
                         </tr>
                     </thead>
@@ -82,10 +82,6 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) { ?>
                         </thead>
                         <tbody>
                             <form action="sendInfo.php" method="post">
-                                <tr class="text-uppercase">
-                                    <td class="border border-dark" scope='row'><label for="email">E-mail used for the account</label></td>
-                                    <td class="border border-dark" scope='row'> <input type="email" id="email" name="email" placeholder="e-mail" required><br><br></td>
-                                </tr>
                                 <tr class="text-uppercase">
                                     <td class="border border-dark" scope='row'><label for="phnumber">Your phone number</label></td>
                                     <td class="border border-dark" scope='row'> <input type="text" id="phnumber" name="phnumber" placeholder="phone number" required><br><br></td>

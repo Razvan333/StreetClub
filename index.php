@@ -82,7 +82,7 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) { ?>
                         </p>
                     </div>
                     <div class="col-md-6 no-space">
-                        <img src="img/img-top.jpg" class="img-fluid w-100 max-width: 100%; height: auto;" />
+                        <img src="img/image-top.jpg" class="img-fluid w-100 max-width: 100%; height: auto;" />
                     </div>
                 </div>
                 <div id="services1"></div>

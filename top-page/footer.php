@@ -28,9 +28,9 @@
                 <h5>
                     <u>Social media</u>
                 </h5><br />
-                <a href="#"><span class="fab fa-instagram fa-2x "></span></a><br /><br />
-                <a href="#"><span class="fab fa-facebook fa-2x "></span></a><br /><br />
-                <a href="#"><span class="fab fa-youtube fa-2x"></span></a>
+                <a href="https://www.instagram.com/streetclub_workout/" target="_blank"><span class="fab fa-instagram fa-2x "></span></a><br /><br />
+                <a href="https://www.facebook.com/streetclubWorkout" target="_blank"><span class="fab fa-facebook fa-2x "></span></a><br /><br />
+                <a href="https://www.youtube.com/channel/UC_YayB18y42CHVgwpi1ZBZw" target="_blank"><span class="fab fa-youtube fa-2x"></span></a>
             </div>
         </div>
 
