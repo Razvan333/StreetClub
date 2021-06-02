@@ -185,12 +185,6 @@ header .overlay {
   background-image: url("img/imgLog.jpg");
   background-size: cover;
 }
-@media only screen and (max-width: 600px) {
-  .bg-login {
-    background-image: url("img/imgLogPhone.jpg");
-    background-size: cover;
-  }
-}
 
 .bg-column {
   background-color: rgba(255, 255, 255, 0.8);
