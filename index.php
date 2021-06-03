@@ -108,7 +108,7 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) { ?>
 
                     <div class="col-md-3">
                         <a class="fas fa-4x fa-heartbeat" style="color:red;"></a><br /><br /><br />
-                        <h4 href='#'>Hiit<br /><a class="text-capitalize">(High-intensity interval training)</a></h4><br />
+                        <h4 href='#'>Hiit<br /><a class="text-capitalize" style="font-size:20px;">(High-intensity interval training)</a></h4><br />
                         <p>These type of exercises have benefits for the cardiovascular system on top of the physical benefits</p>
                     </div>
 
