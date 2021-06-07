@@ -2,7 +2,7 @@
 <?php include '../db_conn.php' ?>
 
 <?php
-if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) {
+if (isset($_SESSION['admin_id']) && isset($_SESSION['admin_email'])) {
 
 
     if (isset($_POST['submit'])) {
@@ -29,5 +29,5 @@ if (isset($_SESSION['user_id']) && isset($_SESSION['user_email'])) {
 
 
 <?php } else {
-    header("Location: login.php");
+    header("Location: adminLogin.php");
 } ?>
