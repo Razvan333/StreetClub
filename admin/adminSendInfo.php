@@ -19,7 +19,7 @@ if (isset($_POST['submit'])) {
         VALUES ('$email', '$tip', '$nume', '$repetari','$pauza','$descriere','$link')";
     $result = $conn->query($sql);
     if ($result) {
-        header("Location: admin/adminindex.php");
+        header("Location: adminindex.php");
     } else {
         echo "Error: " . $sql . "<br>" . $conn->errorInfo();
     }
